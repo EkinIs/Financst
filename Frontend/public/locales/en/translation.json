@@ -1,0 +1,320 @@
+{
+  "welcome": "Welcome to Financst",
+  "common": {
+    "getStarted": "Get Started",
+    "vol": "Vol:"
+  },
+  "features": {
+    "title": "Manage Your Finances Effortlessly",
+    "description": "Track expenses, set budgets, and achieve your financial goals with Financst."
+  },
+  "pricing": {
+    "title": "Pricing",
+    "description": "Try Financst for free and upgrade as your needs grow. Choose from our flexible pricing plans designed to fit your investment journey.",
+    "free": {
+      "title": "Free",
+      "price": "$0",
+      "unit": "/mo",
+      "features": {
+        "stockLimit": "10 stocks included",
+        "helpCenter": "Help center access",
+        "emailSupport": "Email support"
+      },
+      "cta": "Sign up for free"
+    },
+    "advanced": {
+      "title": "Advanced",
+      "recommended": "Recommended",
+      "price": "$1",
+      "unit": "/mo",
+      "features": {
+        "stockLimit": "100 stocks included",
+        "helpCenter": "Help center access",
+        "prioritySupport": "Priority email support",
+        "dedicatedTeam": "Dedicated team"
+      },
+      "cta": "Start now"
+    },
+    "investor": {
+      "title": "Investor",
+      "price": "$10",
+      "unit": "/mo",
+      "features": {
+        "unlimitedStocks": "Unlimited stocks",
+        "phoneSupport": "Phone & email support",
+        "personalizedSetup": "Personalized setup and more"
+      },
+      "cta": "Contact us"
+    }
+  },
+  "faq": {
+    "title": "Frequently Asked Questions",
+    "q1": {
+      "question": "How can I contact support?",
+      "answer": {
+        "part1": "You can reach our support team at",
+        "part2": "for any inquiries."
+      }
+    },
+    "q2": {
+      "question": "Are the stock prices real-time?",
+      "answer": {
+        "part1": "No. Financst provides end-of-day (T-1) data. We focus on fundamental analysis and historical trends rather than instant day-trading fluctuations."
+      }
+    },
+    "q3": {
+      "question": "Can I buy or sell stocks on Financst?",
+      "answer": {
+        "part1": "No, Financst is an analysis and portfolio tracking tool. We are not a brokerage firm, so actual trading must be done through your preferred broker."
+      }
+    },
+    "q4": {
+      "question": "How do I add stocks to my Watchlist?",
+      "answer": {
+        "part1": "Navigate to any stock's detail page using the search bar. Click the 'Add to Watchlist' button in the header. You need to be logged in to use this feature."
+      }
+    },
+    "q5": {
+      "question": "Is Financst free to use?",
+      "answer": {
+        "part1": "Yes! Financst is a student-led open-source project and is completely free for all users. Our pricing plans are designed to support future development and advanced features."
+      }
+    }
+  },
+  "auth": {
+    "login": {
+      "title": "Log In",
+      "emailLabel": "Email",
+      "passwordLabel": "Password",
+      "rememberMe": "Remember me",
+      "forgotPassword": "Forgot your password?",
+      "submit": "Login",
+      "googleBtn": "Continue with Google",
+      "submitting": "Logging in...",
+      "or": "or",
+      "noAccount": "Don't have an account?",
+      "signUpLink": "Sign up",
+      "placeholders": {
+        "email": "your@email.com",
+        "password": "••••••"
+      },
+      "errors": {
+        "email": "Please enter a valid email address.",
+        "password": "Password must be at least 6 characters long.",
+        "network": "Network error. Please try again later.",
+        "unexpected": "An unexpected error occurred. Please try again.",
+        "googleFailure": "Google login failed. Please try again.",
+        "googleError": "Google login error."
+      },
+      "forgotPasswordModal": {
+        "title": "Reset password",
+        "description": "Enter your account's email address, and we'll send you a link to reset your password.",
+        "emailPlaceholder": "Email address",
+        "cancel": "Cancel",
+        "continue": "Continue",
+        "sending": "Sending...",
+        "success": "Check your email for the reset link."
+      }
+    },
+    "signup": {
+      "title": "Create Account",
+      "nameLabel": "Name",
+      "surnameLabel": "Surname",
+      "emailLabel": "Email",
+      "passwordLabel": "Password",
+      "confirmPasswordLabel": "Confirm Password",
+      "terms": "I accept the Terms and Conditions",
+      "submit": "Sign up",
+      "submitting": "Signing up...",
+      "haveAccount": "Already have an account?",
+      "loginLink": "Log in",
+      "placeholders": {
+        "name": "Your Name",
+        "surname": "Your Surname"
+      },
+      "errors": {
+        "name": "Name must be at least 2 characters long.",
+        "surname": "Surname must be at least 2 characters long.",
+        "passwordMatch": "Passwords do not match.",
+        "terms": "You must accept the terms and conditions."
+      }
+    },
+    "overlay": {
+      "signUp": {
+        "title": "Hello, Friend!",
+        "description": "Enter your personal details and start your journey with us. Already have an account?",
+        "button": "Login"
+      },
+      "login": {
+        "title": "Welcome Back!",
+        "description": "To keep connected with us please login with your personal info. Don't have an account?",
+        "button": "Sign Up"
+      }
+    }
+  },
+  "header": {
+    "home": "Home",
+    "aboutUs": "About Us",
+    "contact": "Contact",
+    "login": "Log in",
+    "signup": "Sign Up",
+    "settings": "Settings",
+    "logout": "Logout"
+  },
+  "aboutUs": {
+    "title": "About Financst",
+    "intro": "In the fast-moving world of finance, clarity is everything. Financst replaces cluttered notebooks and complicated spreadsheets with a modern, streamlined experience so that your portfolio always stays accessible, organized, and clear.",
+    "empowering": {
+      "title": "Empowering Your Financial Journey",
+      "desc": "Whether you track stocks, cryptocurrency, or foreign exchange, Financst gives you the confidence to stay on top of the markets. We emphasize usability and transparency so you can make informed decisions without digging through raw spreadsheets."
+    },
+    "whatWeDo": {
+      "title": "What We Do",
+      "personalized": "Personalized Experience:",
+      "personalizedDesc": "curate a bespoke list of financial instruments that matter to you and keep your dashboard focused.",
+      "clarity": "Visual Clarity:",
+      "clarityDesc": "translate portfolio data into intuitive charts that spotlight trends and performance at a glance.",
+      "security": "Security & Privacy:",
+      "securityDesc": "track investments in a private environment where your data stays isolated and protected."
+    },
+    "vision": {
+      "title": "Our Vision",
+      "desc": "We are committed to democratizing professional-grade portfolio management. By removing technical barriers and focusing on a user-centric design, we help investors spend less time on data entry and more time acting on market opportunities. Manage your portfolio anytime, anywhere with Financst."
+    }
+  },
+  "contact": {
+    "title": "Contact Us",
+    "name": "Name",
+    "surname": "Surname",
+    "email": "Email",
+    "message": "Message",
+    "placeholders": {
+      "name": "Your Name",
+      "surname": "Your Surname",
+      "email": "your@email.com",
+      "message": "Your message..."
+    },
+    "submit": "Send Message",
+    "submitting": "Sending...",
+    "success": "Your message has been sent successfully.",
+    "errors": {
+      "name": "Name must be at least 2 characters long.",
+      "surname": "Surname must be at least 2 characters long.",
+      "email": "Please enter a valid email address.",
+      "message": "Message must be at least 5 characters long.",
+      "unexpected": "An unexpected error occurred. Please try again."
+    }
+  },
+  "footer": {
+    "newsletter": {
+      "title": "Join the newsletter",
+      "desc": "Subscribe for weekly updates. No spams ever!",
+      "email": "Email",
+      "subscribe": "Subscribe",
+      "placeholder": "Your email address"
+    },
+    "product": "Product",
+    "features": "Features",
+    "pricing": "Pricing",
+    "faqs": "FAQs",
+    "company": "Company",
+    "aboutUs": "About us",
+    "legal": "Legal",
+    "contact": "Contact",
+    "privacy": "Privacy Policy",
+    "terms": "Terms of Service",
+    "copyright": "Financst Investing Platform.",
+    "rights": "All rights reserved. Market data is for informational purposes only."
+  },
+  "userHome": {
+    "watchlist": "Watchlist",
+    "topGainers": "Top Gainers",
+    "mn_stocks": "Stocks",
+    "mn_crypto": "Cryptocurrency",
+    "mn_commodities": "Commodities",
+    "market": {
+      "stocks": "Stock Market",
+      "crypto": "Cryptocurrency",
+      "commodities": "Commodities"
+    },
+    "marketOverview": "Market Overview",
+    "refreshing": "Refreshing...",
+    "refreshData": "Refresh Data",
+    "marketNews": "Market News",
+    "loadingNews": "Loading news..."
+  },
+  "watchlist": {
+    "empty": "No items in watchlist.",
+    "headers": {
+      "symbol": "Symbol",
+      "addedPrice": "Added Price",
+      "currentPrice": "Current Price",
+      "change": "Change",
+      "changePercent": "Change %",
+      "remove": "Remove",
+      "action": "Action"
+    }
+  },
+  "stockPage": {
+    "inWatchlist": "In Watchlist",
+    "addToWatchlist": "Add to Watchlist",
+    "loadingSymbol": "Loading {{symbol}}...",
+    "news": "Latest News",
+    "about": "About {{name}}",
+    "chart": {
+      "title": "Price History",
+      "loading": "Loading historical data for {{symbol}}..."
+    },
+    "fundamentals": {
+      "title": "Key Statistics",
+      "marketCap": "Market Cap",
+      "peRatio": "P/E Ratio",
+      "beta": "Beta",
+      "employees": "Employees",
+      "industry": "Industry",
+      "location": "Location"
+    }
+  },
+  "stockInfo": {
+    "loading": "Loading data...",
+    "symbol": "Symbol",
+    "price": "Price",
+    "dayChange": "Day Change",
+    "changePercent": "Change %",
+    "volume": "Volume",
+    "marketCap": "Market Cap",
+    "open": "Open",
+    "latestClose": "Latest Close",
+    "high": "High",
+    "low": "Low"
+  },
+  "settings": {
+    "title": "Account Settings",
+    "subTitle": "Manage your profile and security preferences",
+    "updatedSuccess": "Settings updated successfully",
+    "passwordChanged": "Password changed successfully",
+    "passwordMismatch": "Passwords do not match",
+    "passwordLength": "Password must be at least 6 characters",
+    "loading": "Loading...",
+    "saving": "Saving",
+    "saveChanges": "Save Changes",
+    "updating": "Updating",
+    "updatePassword": "Update Password",
+    "cancel": "Cancel",
+    "dangerZone": "Danger Zone",
+    "deleteAccount": "Delete Account",
+    "deleteAccountConfirm": "Delete My Account",
+    "deleteAccountDesc": "Once you delete your account, there is no going back. Please be certain.",
+    "deleteAccountModalTitle": "Delete Account?",
+    "deleteAccountModalDesc": "Are you absolutely sure? This action cannot be undone and will permanently delete all user data.",
+    "profileInfo": "Profile Information",
+    "firstName": "First Name",
+    "lastName": "Last Name",
+    "email": "Email Address",
+    "emailNote": "Emails cannot be changed for security reasons",
+    "security": "Security",
+    "currentPassword": "Current Password",
+    "newPassword": "New Password",
+    "confirmNewPassword": "Confirm New Password"
+  }
+}

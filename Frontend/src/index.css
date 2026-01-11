@@ -1,0 +1,51 @@
+@import "tailwindcss";
+
+/* Defines a "class-based" dark mode strategy */
+@custom-variant dark (&:where(.dark, .dark *));
+
+@theme {
+  --color-midnight-dark: rgb(50, 55, 65);
+  --color-midnight: rgb(60, 65, 75);
+  --color-midnight-light: rgb(70, 75, 85);
+  --color-midnight-lighter: rgb(80, 85, 95);
+  --color-bg-white: rgb(249, 250, 251);
+}
+
+/* 1. Set default background variables 
+   2. Override them when the .dark class is present 
+*/
+:root {
+  --background-color: var(--color-bg-white);
+}
+
+:root:has(.dark) {
+  --background-color: var(--color-midnight);
+}
+/* Alternatively, if you toggle the class on <html> directly: */
+.dark {
+  --background-color: var(--color-midnight);
+}
+
+html,
+body,
+#root {
+  /* Fix: max-height: 100vw was likely a typo for width */
+  max-height: 100vh;
+  width: 100%;
+  height: 100vh;
+  margin: 0;
+  padding: 0;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+
+  /* Usage of the dynamic variable defined above */
+  background-color: var(--background-color);
+
+  /* Ensure text color flips too, otherwise text might be invisible on dark mode */
+  color: var(--color-midnight);
+}
+
+/* Specific override for dark mode text if needed */
+.dark body {
+  color: var(--color-bg-white);
+}

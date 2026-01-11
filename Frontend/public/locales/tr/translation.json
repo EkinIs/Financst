@@ -1,0 +1,320 @@
+{
+  "welcome": "Financst'a Hoşgeldiniz",
+  "common": {
+    "getStarted": "Başlayın",
+    "vol": "Hac:"
+  },
+  "features": {
+    "title": "Finansınızı Zahmetsizce Yönetin",
+    "description": "Financst ile giderlerinizi takip edin, bütçe belirleyin ve finansal hedeflerinize ulaşın."
+  },
+  "pricing": {
+    "title": "Fiyatlandırma",
+    "description": "Financst'ı ücretsiz deneyin ve ihtiyaçlarınız arttıkça yükseltin. Yatırım yolculuğunuza uyacak şekilde tasarlanmış esnek fiyatlandırma planlarımızdan birini seçin.",
+    "free": {
+      "title": "Ücretsiz",
+      "price": "0₺",
+      "unit": "/ay",
+      "features": {
+        "stockLimit": "10 hisse senedi dahil",
+        "helpCenter": "Yardım merkezi erişimi",
+        "emailSupport": "E-posta desteği"
+      },
+      "cta": "Ücretsiz kaydol"
+    },
+    "advanced": {
+      "title": "Gelişmiş",
+      "recommended": "Önerilen",
+      "price": "35₺",
+      "unit": "/ay",
+      "features": {
+        "stockLimit": "100 hisse senedi dahil",
+        "helpCenter": "Yardım merkezi erişimi",
+        "prioritySupport": "Öncelikli e-posta desteği",
+        "dedicatedTeam": "Özel ekip"
+      },
+      "cta": "Şimdi başla"
+    },
+    "investor": {
+      "title": "Yatırımcı",
+      "price": "350₺",
+      "unit": "/ay",
+      "features": {
+        "unlimitedStocks": "Sınırsız hisse senedi",
+        "phoneSupport": "Telefon ve e-posta desteği",
+        "personalizedSetup": "Kişiselleştirilmiş kurulum ve daha fazlası"
+      },
+      "cta": "Bize ulaşın"
+    }
+  },
+  "faq": {
+    "title": "Sıkça sorulan sorular",
+    "q1": {
+      "question": "Bir sorum veya sorunum varsa müşteri hizmetleriyle nasıl iletişime geçerim?",
+      "answer": {
+        "part1": "Müşteri destek ekibimize",
+        "part2": "adresine e-posta göndererek veya numaramızı arayarak ulaşabilirsiniz. Size hemen yardımcı olmak için buradayız."
+      }
+    },
+    "q2": {
+      "question": "Hisse senedi fiyatları gerçek zamanlı mı?",
+      "answer": {
+        "part1": "Hayır. Financst gün sonu (T-1) verileri sağlar. Anlık günlük işlem dalgalanmaları yerine temel analiz ve geçmiş trendlere odaklanıyoruz."
+      }
+    },
+    "q3": {
+      "question": "Financst üzerinden hisse senedi alıp satabilir miyim?",
+      "answer": {
+        "part1": "Hayır, Financst bir analiz ve portföy takip aracıdır. Bir aracı kurum değiliz, bu nedenle gerçek işlemler tercih ettiğiniz aracı kurum üzerinden yapılmalıdır."
+      }
+    },
+    "q4": {
+      "question": "İzleme Listeme nasıl hisse eklerim?",
+      "answer": {
+        "part1": "Arama çubuğunu kullanarak herhangi bir hisse senedinin detay sayfasına gidin. Başlıktaki 'Listeye Ekle' butonuna tıklayın. Bu özelliği kullanmak için giriş yapmış olmalısınız."
+      }
+    },
+    "q5": {
+      "question": "Financst'ı kullanmak ücretsiz mi?",
+      "answer": {
+        "part1": "Evet! Financst öğrenci liderliğindeki açık kaynaklı bir projedir ve tüm kullanıcılar için tamamen ücretsizdir. Fiyatlandırma planlarımız gelecekteki geliştirmeleri ve gelişmiş özellikleri desteklemek için tasarlanmıştır."
+      }
+    }
+  },
+  "auth": {
+    "login": {
+      "title": "Giriş Yap",
+      "emailLabel": "E-posta",
+      "passwordLabel": "Şifre",
+      "rememberMe": "Beni hatırla",
+      "forgotPassword": "Şifrenizi mi unuttunuz?",
+      "submit": "Giriş Yap",
+      "googleBtn": "Google ile devam et",
+      "submitting": "Giriş yapılıyor...",
+      "or": "veya",
+      "noAccount": "Hesabınız yok mu?",
+      "signUpLink": "Kayıt ol",
+      "placeholders": {
+        "email": "sizin@email.com",
+        "password": "••••••"
+      },
+      "errors": {
+        "email": "Lütfen geçerli bir e-posta adresi girin.",
+        "password": "Şifre en az 6 karakter uzunluğunda olmalıdır.",
+        "network": "Ağ hatası. Lütfen daha sonra tekrar deneyin.",
+        "unexpected": "Beklenmedik bir hata oluştu. Lütfen tekrar deneyin.",
+        "googleFailure": "Google ile giriş yapılamadı. Lütfen tekrar deneyin.",
+        "googleError": "Google ile giriş başarısız oldu."
+      },
+      "forgotPasswordModal": {
+        "title": "Şifreyi Sıfırla",
+        "description": "Hesabınızın e-posta adresini girin, şifrenizi sıfırlamanız için size bir bağlantı gönderelim.",
+        "emailPlaceholder": "E-posta adresi",
+        "cancel": "İptal",
+        "continue": "Devam Et",
+        "sending": "Gönderiliyor...",
+        "success": "Sıfırlama bağlantısı için e-postanızı kontrol edin."
+      }
+    },
+    "signup": {
+      "title": "Hesap Oluştur",
+      "nameLabel": "Ad",
+      "surnameLabel": "Soyad",
+      "emailLabel": "E-posta",
+      "passwordLabel": "Şifre",
+      "confirmPasswordLabel": "Şifreyi Onayla",
+      "terms": "Şartlar ve Koşulları kabul ediyorum",
+      "submit": "Kayıt Ol",
+      "submitting": "Kaydediliyor...",
+      "haveAccount": "Zaten hesabınız var mı?",
+      "loginLink": "Giriş yap",
+      "placeholders": {
+        "name": "Adınız",
+        "surname": "Soyadınız"
+      },
+      "errors": {
+        "name": "Ad en az 2 karakter uzunluğunda olmalıdır.",
+        "surname": "Soyad en az 2 karakter uzunluğunda olmalıdır.",
+        "passwordMatch": "Şifreler eşleşmiyor.",
+        "terms": "Şartlar ve koşulları kabul etmelisiniz."
+      }
+    },
+    "overlay": {
+      "signUp": {
+        "title": "Merhaba Arkadaş!",
+        "description": "Kişisel bilgilerinizi girin ve bizimle yolculuğunuza başlayın. Zaten hesabınız var mı?",
+        "button": "Giriş Yap"
+      },
+      "login": {
+        "title": "Tekrar Hoşgeldiniz!",
+        "description": "Bizimle bağlantıda kalmak için lütfen kişisel bilgilerinizle giriş yapın. Hesabınız yok mu?",
+        "button": "Kayıt Ol"
+      }
+    }
+  },
+  "header": {
+    "home": "Anasayfa",
+    "aboutUs": "Hakkımızda",
+    "contact": "İletişim",
+    "login": "Giriş Yap",
+    "signup": "Kayıt Ol",
+    "settings": "Ayarlar",
+    "logout": "Çıkış Yap"
+  },
+  "aboutUs": {
+    "title": "Financst Hakkında",
+    "intro": "Hızlı hareket eden finans dünyasında netlik her şeydir. Financst, karmaşık not defterlerini ve tabloları modern, akıcı bir deneyimle değiştirerek portföyünüzün her zaman erişilebilir, düzenli ve net kalmasını sağlar.",
+    "empowering": {
+      "title": "Finansal Yolculuğunuzu Güçlendirin",
+      "desc": "Hisse senetlerini, kripto paraları veya dövizleri takip ediyor olun, Financst piyasaların zirvesinde kalmanız için size güven verir. Kullanılabilirlik ve şeffaflığı ön planda tutarak ham veri yığınları arasında kaybolmadan bilinçli kararlar almanızı sağlıyoruz."
+    },
+    "whatWeDo": {
+      "title": "Ne Yapıyoruz",
+      "personalized": "Kişiselleştirilmiş Deneyim:",
+      "personalizedDesc": "sizin için önemli olan finansal araçlardan oluşan özel bir liste oluşturun ve panonuzu odaklı tutun.",
+      "clarity": "Görsel Netlik:",
+      "clarityDesc": "portföy verilerini bir bakışta trendleri ve performansı öne çıkaran sezgisel grafiklere dönüştürün.",
+      "security": "Güvenlik ve Gizlilik:",
+      "securityDesc": "verilerinizin izole edildiği ve korunduğu özel bir ortamda yatırımlarınızı takip edin."
+    },
+    "vision": {
+      "title": "Vizyonumuz",
+      "desc": "Profesyonel düzeyde portföy yönetimini demokratikleştirmeye kararlıyız. Teknik engelleri kaldırarak ve kullanıcı odaklı bir tasarıma odaklanarak, yatırımcıların veri girişiyle daha az, piyasa fırsatlarını değerlendirmekle daha çok zaman geçirmesine yardımcı oluyoruz. Portföyünüzü Financst ile her zaman, her yerde yönetin."
+    }
+  },
+  "contact": {
+    "title": "Bize Ulaşın",
+    "name": "Ad",
+    "surname": "Soyad",
+    "email": "E-posta",
+    "message": "Mesaj",
+    "placeholders": {
+      "name": "Adınız",
+      "surname": "Soyadınız",
+      "email": "sizin@email.com",
+      "message": "Mesajınız..."
+    },
+    "submit": "Mesaj Gönder",
+    "submitting": "Gönderiliyor...",
+    "success": "Mesajınız başarıyla gönderildi.",
+    "errors": {
+      "name": "Ad en az 2 karakter uzunluğunda olmalıdır.",
+      "surname": "Soyad en az 2 karakter uzunluğunda olmalıdır.",
+      "email": "Lütfen geçerli bir e-posta adresi girin.",
+      "message": "Mesaj en az 5 karakter uzunluğunda olmalıdır.",
+      "unexpected": "Beklenmedik bir hata oluştu. Lütfen tekrar deneyin."
+    }
+  },
+  "footer": {
+    "newsletter": {
+      "title": "Bültene katılın",
+      "desc": "Haftalık güncellemeler için abone olun. Spam yok!",
+      "email": "E-posta",
+      "subscribe": "Abone Ol",
+      "placeholder": "E-posta adresiniz"
+    },
+    "product": "Ürün",
+    "features": "Özellikler",
+    "pricing": "Fiyatlandırma",
+    "faqs": "SSS",
+    "company": "Şirket",
+    "aboutUs": "Hakkımızda",
+    "legal": "Yasal",
+    "contact": "İletişim",
+    "privacy": "Gizlilik Politikası",
+    "terms": "Kullanım Şartları",
+    "copyright": "Financst Yatırım Platformu.",
+    "rights": "Tüm hakları saklıdır. Piyasa verileri sadece bilgilendirme amaçlıdır."
+  },
+  "userHome": {
+    "watchlist": "İzleme Listesi",
+    "topGainers": "En Çok Kazananlar",
+    "mn_stocks": "Hisseler",
+    "mn_crypto": "Kripto Para",
+    "mn_commodities": "Emtialar",
+    "market": {
+      "stocks": "Hisse Senedi Piyasası",
+      "crypto": "Kripto Para Piyasası",
+      "commodities": "Emtia Piyasası"
+    },
+    "marketOverview": "Piyasa Genel Bakış",
+    "refreshing": "Yenileniyor...",
+    "refreshData": "Verileri Yenile",
+    "marketNews": "Piyasa Haberleri",
+    "loadingNews": "Haberler yükleniyor..."
+  },
+  "watchlist": {
+    "empty": "İzleme listenizde öğe yok.",
+    "headers": {
+      "symbol": "Sembol",
+      "addedPrice": "Ekleme Fiyatı",
+      "currentPrice": "Güncel Fiyat",
+      "change": "Değişim",
+      "changePercent": "Değişim %",
+      "remove": "Kaldır",
+      "action": "Eylem"
+    }
+  },
+  "stockPage": {
+    "inWatchlist": "Listede",
+    "addToWatchlist": "Listeye Ekle",
+    "loadingSymbol": "{{symbol}} yükleniyor...",
+    "news": "Son Haberler",
+    "about": "{{name}} Hakkında",
+    "chart": {
+      "title": "Fiyat Geçmişi",
+      "loading": "{{symbol}} için geçmiş veriler yükleniyor..."
+    },
+    "fundamentals": {
+      "title": "Temel İstatistikler",
+      "marketCap": "Piyasa Değeri",
+      "peRatio": "F/K Oranı",
+      "beta": "Beta",
+      "employees": "Çalışanlar",
+      "industry": "Endüstri",
+      "location": "Konum"
+    }
+  },
+  "stockInfo": {
+    "loading": "Veriler yükleniyor...",
+    "symbol": "Sembol",
+    "price": "Fiyat",
+    "dayChange": "Günlük Değişim",
+    "changePercent": "Değişim %",
+    "volume": "Hacim",
+    "marketCap": "Piyasa Değeri",
+    "open": "Açılış",
+    "latestClose": "Son Kapanış",
+    "high": "En Yüksek",
+    "low": "En Düşük"
+  },
+  "settings": {
+    "title": "Hesap Ayarları",
+    "subTitle": "Profil ve güvenlik tercihlerinizi yönetin",
+    "updatedSuccess": "Ayarlar başarıyla güncellendi",
+    "passwordChanged": "Şifre başarıyla değiştirildi",
+    "passwordMismatch": "Şifreler eşleşmiyor",
+    "passwordLength": "Şifre en az 6 karakter olmalıdır",
+    "loading": "Yükleniyor...",
+    "saving": "Kaydediliyor",
+    "saveChanges": "Değişiklikleri Kaydet",
+    "updating": "Güncelleniyor",
+    "updatePassword": "Şifreyi Güncelle",
+    "cancel": "İptal",
+    "dangerZone": "Tehlikeli Bölge",
+    "deleteAccount": "Hesabı Sil",
+    "deleteAccountConfirm": "Hesabımı Sil",
+    "deleteAccountDesc": "Hesabınızı sildiğinizde geri dönüş yoktur. Lütfen emin olun.",
+    "deleteAccountModalTitle": "Hesabı Sil?",
+    "deleteAccountModalDesc": "Kesinlikle emin misiniz? Bu işlem geri alınamaz ve tüm kullanıcı verilerini kalıcı olarak silecektir.",
+    "profileInfo": "Profil Bilgileri",
+    "firstName": "Ad",
+    "lastName": "Soyad",
+    "email": "E-posta Adresi",
+    "emailNote": "Güvenlik nedeniyle e-posta adresi değiştirilemez",
+    "security": "Güvenlik",
+    "currentPassword": "Mevcut Şifre",
+    "newPassword": "Yeni Şifre",
+    "confirmNewPassword": "Yeni Şifreyi Onayla"
+  }
+}
